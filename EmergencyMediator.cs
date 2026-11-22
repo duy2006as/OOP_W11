@@ -31,8 +31,8 @@ public sealed class EmergencyMediator : IEmergencyMediator
             case "FIRE_DETECTED":
                 Console.WriteLine("MEDIATOR: Nhan su kien bao chay FIRE_DETECTED - Bat dau dieu phoi cac thiet bi");
                 alarm.Ring();
-                doorController.LockAllDoors();
-                ventilationController.TurnOff();
+                doorController.UnlockAllDoors();
+                ventilationController.StartMaxExtraction();
                 break;
 
             case "ALL_CLEAR":
