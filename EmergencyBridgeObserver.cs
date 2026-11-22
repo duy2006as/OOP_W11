@@ -19,7 +19,7 @@ public sealed class EmergencyBridgeObserver : IAlertObserver
 
     public void Update(AlertEvent alertEvent)
     {
-        if (alertEvent.Severity == "WARNING")
+        if (alertEvent.Severity == "CRITICAL")
         {
             Console.WriteLine("CAU NOI KHAN CAP: Phat hien su kien nguy hiem - Chuyen tiep su kien FIRE_DETECTED den Mediator");
             mediator.Notify(this, "FIRE_DETECTED");
