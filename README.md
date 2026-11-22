@@ -154,7 +154,7 @@ classDiagram
 ---
 
 
-## 4. KỊCH BẢN KIỂM THỬ TRÊN CONSOLE
+## 3. KỊCH BẢN KIỂM THỬ TRÊN CONSOLE
 
 Hệ thống cung cấp giao diện Console tương tác nhập tay 100%, không sử dụng dữ liệu tự động, và **tuyệt đối không in ký tự mở ngoặc hoặc đóng ngoặc** ra màn hình console.
 
