@@ -18,7 +18,7 @@ public sealed class SmokeSensorAdapter : ISensor
     // Doc gia tri sau khi chuyen doi tu 0 den 1000 sang phan tram tu 0 den 100
     public double ReadValue()
     {
-        return legacy.GetSmokeLevel() / 100.0;
+        return legacy.GetSmokeLevel() / 10.0;
     }
 
     public string GetUnit() => "% smoke";
